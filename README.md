@@ -1,4 +1,4 @@
-# airport-api-examination
+# airport-api-nodejs
 
 - Node.js, express
 - MongoDB
@@ -13,5 +13,5 @@ npm install
 ```
 ### Compiles and hot-reloads for development
 ```
-npm start
+npm start : node index.js
 ```
