@@ -2,8 +2,15 @@ const Airports = require('../Models/airports-model');
 
 exports.getList = function (req, res) {
     const id = (req.params && req.params.id) ? req.params.id : (req.query && req.query.id) ? req.query.id : null;
-
-    if(id){
+    const typeId = (req.params && req.params.typeId) ? req.params.typeId : (req.query && req.query.typeId) ? req.query.typeId : null;
+    
+    if(typeId && typeId > 0){
+        Airports.find({typeId : typeId}).exec((err, data) => {
+            if (err) return res.status(400).send(err);
+            res.status(200).send(data);
+        });
+    }
+    else if(id){
         Airports.findById(id, function (err, data) {
             if (err) return res.status(400).send(err);
             res.status(200).send(data);
