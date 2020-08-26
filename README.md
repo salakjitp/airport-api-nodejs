@@ -5,7 +5,7 @@
 - Heroku
 
 ## Demo
-https://api-examination-ps.herokuapp.com/
+https://airport-api-nodejs.herokuapp.com/
 
 ## Project setup
 ```
