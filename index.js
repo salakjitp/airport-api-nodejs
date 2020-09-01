@@ -1,17 +1,18 @@
-var express = require("express");
-var bodyParser = require('body-parser')
-var mongoose = require('mongoose')
-var cors = require("cors");
+const express = require("express"),
+ path = require('path'),
+ bodyParser = require('body-parser'),
+ mongoose = require('mongoose'),
+ cors = require("cors"),
+ appConfig = require("./Configs/app");
 
 // คำสั่งเชื่อม MongoDB Atlas
-var mongo_uri = require("./mongo-uri");
 mongoose.Promise = global.Promise;
-mongoose.connect(mongo_uri, { useNewUrlParser: true }).then(
+mongoose.connect(appConfig.mongodbUri, { useNewUrlParser: true }).then(
   () => {
     console.log("[success] task 2 : connected to the database ");
   },
   error => {
-    console.log("[failed] task 2 " + error);
+    console.log(`[failed] task 2 ${error}`);
     process.exit();
   }
 );
@@ -24,17 +25,14 @@ app.use(cors());
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: true}))
 
-var port = process.env.PORT || 5000
-
 app.get('/', function (req, res) {
- res.send('<div> <h1>Hello Node.js</h1> <div>/api/airports</div> <div>/api/airportType</div> </div> ')
- //res.sendFile('index.html');
+  res.sendFile(path.resolve(__dirname,'views') + '/index.html');
 })
-app.get('/index', function (req, res) {
-  res.send('<h1>This is index page</h1>')
-})
-app.listen(port, () => {
-  console.log("[success] task 1 : listening on port " + port);
+// app.get('/index', function (req, res) {
+//   res.send('<h1>This is index page</h1>')
+// })
+app.listen(appConfig.port, () => {
+  console.log(`[success] task 1 : listening on port  ${appConfig.port}`);
 });
 
 // path สำหรับ MongoDB ของเรา
