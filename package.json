@@ -1,5 +1,5 @@
 {
-  "name": "api-examination-ps",
+  "name": "airport-api-nodejs",
   "version": "1.0.0",
   "description": "API for examination",
   "main": "index.js",
