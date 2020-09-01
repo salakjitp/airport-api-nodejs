@@ -26,7 +26,7 @@ var logDirectory = path.join(__dirname, 'logs');
 fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
 
 //Set static file
-app.use(express.static('logs'));
+app.use('/logs', express.static('logs'));
 
 app.use(cors());
 // // log only 4xx and 5xx responses to console
