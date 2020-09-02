@@ -7,7 +7,9 @@ const express = require("express"),
  morgan = require('morgan'),
  fs = require('fs');
 
-// คำสั่งเชื่อม MongoDB Atlas
+const helmet = require("helmet");
+
+//connect MongoDB Atlas
 mongoose.Promise = global.Promise;
 mongoose.connect(appConfig.mongodbUri, { useNewUrlParser: true }).then(
   () => {
@@ -24,6 +26,23 @@ var logDirectory = path.join(__dirname, 'logs');
 
 // check log directory exists
 fs.existsSync(logDirectory) || fs.mkdirSync(logDirectory);
+
+// This...
+app.use(helmet());
+
+// ...is equivalent to this:
+app.use(helmet.contentSecurityPolicy());
+app.use(helmet.dnsPrefetchControl());
+app.use(helmet.expectCt());
+app.use(helmet.frameguard());
+// app.use(helmet.hidePoweredBy());
+app.disable("x-powered-by");
+app.use(helmet.hsts());
+app.use(helmet.ieNoOpen());
+app.use(helmet.noSniff());
+app.use(helmet.permittedCrossDomainPolicies());
+app.use(helmet.referrerPolicy());
+app.use(helmet.xssFilter());
 
 //Set static file
 app.use('/logs', express.static('logs'));
@@ -50,7 +69,6 @@ app.listen(appConfig.port, () => {
   console.log(`[success] task 1 : listening on port  ${appConfig.port}`);
 });
 
-// path สำหรับ MongoDB ของเรา
 var airports = require("./Routers/airports-router");
 app.use("/api/airports", airports);
 
@@ -59,10 +77,10 @@ app.use("/api/airportType", airportType);
 
 // Error handling
 app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "*");
-  res.setHeader("Access-Control-Allow-Credentials", "true");
-  res.setHeader("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
-  res.setHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Origin,Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers,Authorization");
+  // res.setHeader("Access-Control-Allow-Origin", "*");
+  // res.setHeader("Access-Control-Allow-Credentials", "true");
+  // res.setHeader("Access-Control-Allow-Methods", "GET,HEAD,OPTIONS,POST,PUT");
+  // res.setHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Origin,Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers,Authorization");
 
   var err = new Error("ไม่พบ path ที่คุณต้องการ");
   err.status = 404;
