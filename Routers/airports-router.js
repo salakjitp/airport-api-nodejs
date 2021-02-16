@@ -4,7 +4,8 @@ const  airport_controller = require("../Controllers/airport-controller");
 
 //GET
 router.get('/', airport_controller.getList);
-router.post("/import",airport_controller.importJSON);
+// router.post("/import",airport_controller.importJSON);
+router.get('/new', airport_controller.getNewList);
 
 //POST
 router.post("/", airport_controller.insertAirport);
