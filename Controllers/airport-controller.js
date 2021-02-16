@@ -88,7 +88,7 @@ exports.getNewList = function (req, res) {
     const page = parseInt((req.params && req.params.page) ? req.params.page : (req.query && req.query.page) ? req.query.page : 1);
     const size = parseInt((req.params && req.params.size) ? req.params.size : (req.query && req.query.size) ? req.query.size : 10);
 
-    const data = newData.data;
+    const data = newData;
     let _result = [];
 
     const result = data.filter(f=>{
