@@ -1,0 +1,1019 @@
+[
+    {
+        "airportID": 2294,
+        "airportName": "ข้อย (OITK) (KHY)",
+        "airportNameOnly": " ข้อย",
+        "icao": "OITK",
+        "iata": "KHY",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3321,
+        "airportName": "ชัยภูมิ (VTUC)",
+        "airportNameOnly": "ชัยภูมิ",
+        "icao": "VTUC",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3325,
+        "airportName": "ชัยภูมิ/ภูเขียว (VTUG)",
+        "airportNameOnly": "ชัยภูมิ/ภูเขียว",
+        "icao": "VTUG",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3303,
+        "airportName": "ชุมพร (VTSD)",
+        "airportNameOnly": "ชุมพร",
+        "icao": "VTSD",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3260,
+        "airportName": "เชียงของ (VTCA)",
+        "airportNameOnly": "เชียงของ",
+        "icao": "VTCA",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3263,
+        "airportName": "เชียงคาน (VTCD)",
+        "airportNameOnly": "เชียงคาน",
+        "icao": "VTCD",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3306,
+        "airportName": "ท่าอากาศยานกระบี่ (VTSG) (KBV)",
+        "airportNameOnly": "ท่าอากาศยานกระบี่",
+        "icao": "VTSG",
+        "iata": "KBV",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3332,
+        "airportName": "ท่าอากาศยานกองบิน1 นครราชสีมา (VTUN)",
+        "airportNameOnly": "ท่าอากาศยานกองบิน1 นครราชสีมา",
+        "icao": "VTUN",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3329,
+        "airportName": "ท่าอากาศยานขอนแก่น (VTUK) (KKC)",
+        "airportNameOnly": "ท่าอากาศยานขอนแก่น",
+        "icao": "VTUK",
+        "iata": "KKC",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3304,
+        "airportName": "ท่าอากาศยานชุมพร (VTSE) (CJM)",
+        "airportNameOnly": "ท่าอากาศยานชุมพร",
+        "icao": "VTSE",
+        "iata": "CJM",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3262,
+        "airportName": "ท่าอากาศยานเชียงใหม่ (VTCC) (CNX)",
+        "airportNameOnly": "ท่าอากาศยานเชียงใหม่",
+        "icao": "VTCC",
+        "iata": "CNX",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3237,
+        "airportName": "ท่าอากาศยานดอนเมือง (VTBD) (DMK)",
+        "airportNameOnly": "ท่าอากาศยานดอนเมือง",
+        "icao": "VTBD",
+        "iata": "DMK",
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3315,
+        "airportName": "ท่าอากาศยานตรัง (VTST) (TST)",
+        "airportNameOnly": "ท่าอากาศยานตรัง",
+        "icao": "VTST",
+        "iata": "TST",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3295,
+        "airportName": "ท่าอากาศยานตาก (VTPT) (TKT)",
+        "airportNameOnly": "ท่าอากาศยานตาก",
+        "icao": "VTPT",
+        "iata": "TKT",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3334,
+        "airportName": "ท่าอากาศยานนครพนม (VTUP)",
+        "airportNameOnly": "ท่าอากาศยานนครพนม",
+        "icao": "VTUP",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3341,
+        "airportName": "ท่าอากาศยานนครพนม (VTUW) (KOP)",
+        "airportNameOnly": "ท่าอากาศยานนครพนม",
+        "icao": "VTUW",
+        "iata": "KOP",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3335,
+        "airportName": "ท่าอากาศยานนครราชสีมา (VTUQ) (NAK)",
+        "airportNameOnly": "ท่าอากาศยานนครราชสีมา",
+        "icao": "VTUQ",
+        "iata": "NAK",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3305,
+        "airportName": "ท่าอากาศยานนครศรีธรรมราช (VTSF) (NST)",
+        "airportNameOnly": "ท่าอากาศยานนครศรีธรรมราช",
+        "icao": "VTSF",
+        "iata": "NST",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3286,
+        "airportName": "ท่าอากาศยานนครสวรรค์(ตาคลี) (VTPI) (TKH)",
+        "airportNameOnly": "ท่าอากาศยานนครสวรรค์(ตาคลี)",
+        "icao": "VTPI",
+        "iata": "TKH",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3302,
+        "airportName": "ท่าอากาศยานนราธิวาส (VTSC) (NAW)",
+        "airportNameOnly": "ท่าอากาศยานนราธิวาส",
+        "icao": "VTSC",
+        "iata": "NAW",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3271,
+        "airportName": "ท่าอากาศยานน่านนคร (VTCN) (NNT)",
+        "airportNameOnly": "ท่าอากาศยานน่านนคร",
+        "icao": "VTCN",
+        "iata": "NNT",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3154,
+        "airportName": "ท่าอากาศยานนานาชาติเสียมราฐ (VDSR) (REP)",
+        "airportNameOnly": "ท่าอากาศยานนานาชาติเสียมราฐ",
+        "icao": "VDSR",
+        "iata": "REP",
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3333,
+        "airportName": "ท่าอากาศยานบุรีรัมย์ (VTUO) (BFV)",
+        "airportNameOnly": "ท่าอากาศยานบุรีรัมย์",
+        "icao": "VTUO",
+        "iata": "BFV",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3317,
+        "airportName": "ท่าอากาศยานเบตง (VTSY) (BTG)",
+        "airportNameOnly": "ท่าอากาศยานเบตง",
+        "icao": "VTSY",
+        "iata": "BTG",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3309,
+        "airportName": "ท่าอากาศยานปัตตานี (VTSK) (PAN)",
+        "airportNameOnly": "ท่าอากาศยานปัตตานี",
+        "icao": "VTSK",
+        "iata": "PAN",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3267,
+        "airportName": "ท่าอากาศยานปาย (VTCI) (PYY)",
+        "airportNameOnly": "ท่าอากาศยานปาย",
+        "icao": "VTCI",
+        "iata": "PYY",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3292,
+        "airportName": "ท่าอากาศยานพิษณุโลก (VTPP) (PHS)",
+        "airportNameOnly": "ท่าอากาศยานพิษณุโลก",
+        "icao": "VTPP",
+        "iata": "PHS",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3281,
+        "airportName": "ท่าอากาศยานเพชรบูรณ์ (VTPB) (PHY)",
+        "airportNameOnly": "ท่าอากาศยานเพชรบูรณ์",
+        "icao": "VTPB",
+        "iata": "PHY",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3273,
+        "airportName": "ท่าอากาศยานแพร่ (VTCP) (PRH)",
+        "airportNameOnly": "ท่าอากาศยานแพร่",
+        "icao": "VTCP",
+        "iata": "PRH",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3312,
+        "airportName": "ท่าอากาศยานภูเก็ต (VTSP) (HKT)",
+        "airportNameOnly": "ท่าอากาศยานภูเก็ต",
+        "icao": "VTSP",
+        "iata": "HKT",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3276,
+        "airportName": "ท่าอากาศยานแม่ฟ้าหลวง เชียงราย (VTCT) (CEI)",
+        "airportNameOnly": "ท่าอากาศยานแม่ฟ้าหลวง เชียงราย",
+        "icao": "VTCT",
+        "iata": "CEI",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3289,
+        "airportName": "ท่าอากาศยานแม่สอด (VTPM) (MAQ)",
+        "airportNameOnly": "ท่าอากาศยานแม่สอด",
+        "icao": "VTPM",
+        "iata": "MAQ",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3275,
+        "airportName": "ท่าอากาศยานแม่สะเรียง (VTCS)",
+        "airportNameOnly": "ท่าอากาศยานแม่สะเรียง",
+        "icao": "VTCS",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3266,
+        "airportName": "ท่าอากาศยานแม่ฮ่องสอน (VTCH) (HGN)",
+        "airportNameOnly": "ท่าอากาศยานแม่ฮ่องสอน",
+        "icao": "VTCH",
+        "iata": "HGN",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3340,
+        "airportName": "ท่าอากาศยานร้อยเอ็ด (VTUV) (ROI)",
+        "airportNameOnly": "ท่าอากาศยานร้อยเอ็ด",
+        "icao": "VTUV",
+        "iata": "ROI",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3313,
+        "airportName": "ท่าอากาศยานระนอง (VTSR) (UNN)",
+        "airportNameOnly": "ท่าอากาศยานระนอง",
+        "icao": "VTSR",
+        "iata": "UNN",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3269,
+        "airportName": "ท่าอากาศยานลำปาง (VTCL) (LPT)",
+        "airportNameOnly": "ท่าอากาศยานลำปาง",
+        "icao": "VTCL",
+        "iata": "LPT",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3330,
+        "airportName": "ท่าอากาศยานเลย (VTUL) (LOE)",
+        "airportNameOnly": "ท่าอากาศยานเลย",
+        "icao": "VTUL",
+        "iata": "LOE",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3327,
+        "airportName": "ท่าอากาศยานสกลนคร (VTUI) (SNO)",
+        "airportNameOnly": "ท่าอากาศยานสกลนคร",
+        "icao": "VTUI",
+        "iata": "SNO",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3301,
+        "airportName": "ท่าอากาศยานสุราษฎร์ธานี (VTSB) (URT)",
+        "airportNameOnly": "ท่าอากาศยานสุราษฎร์ธานี",
+        "icao": "VTSB",
+        "iata": "URT",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3252,
+        "airportName": "ท่าอากาศยานสุวรรณภูมิ (VTBS) (BKK)",
+        "airportNameOnly": "ท่าอากาศยานสุวรรณภูมิ",
+        "icao": "VTBS",
+        "iata": "BKK",
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3285,
+        "airportName": "ท่าอากาศยานหัวหิน (VTPH) (HHQ)",
+        "airportNameOnly": "ท่าอากาศยานหัวหิน",
+        "icao": "VTPH",
+        "iata": "HHQ",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3314,
+        "airportName": "ท่าอากาศยานหาดใหญ่ (VTSS) (HDY)",
+        "airportNameOnly": "ท่าอากาศยานหาดใหญ่",
+        "icao": "VTSS",
+        "iata": "HDY",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3322,
+        "airportName": "ท่าอากาศยานอุดรธานี (VTUD) (UTH)",
+        "airportNameOnly": "ท่าอากาศยานอุดรธานี",
+        "icao": "VTUD",
+        "iata": "UTH",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3339,
+        "airportName": "ท่าอากาศยานอุบลราชธานี (VTUU) (UBP)",
+        "airportNameOnly": "ท่าอากาศยานอุบลราชธานี",
+        "icao": "VTUU",
+        "iata": "UBP",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3254,
+        "airportName": "ท่าอากาศยานอู่ตะเภา (VTBU) (UTP)",
+        "airportNameOnly": "ท่าอากาศยานอู่ตะเภา",
+        "icao": "VTBU",
+        "iata": "UTP",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3373,
+        "airportName": "ที่ขึ้นลงชั่วคราว เกาะไม้ซี้ตราด (VZZZ) (ZZZ)",
+        "airportNameOnly": "ที่ขึ้นลงชั่วคราว เกาะไม้ซี้ตราด",
+        "icao": "VZZZ",
+        "iata": "ZZZ",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3372,
+        "airportName": "ที่ขึ้นลงชั่วคราว จังหวัดสมุทรสาคร (VZZB)",
+        "airportNameOnly": "ที่ขึ้นลงชั่วคราว จังหวัดสมุทรสาคร",
+        "icao": "VZZB",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3371,
+        "airportName": "ที่ขึ้นลงชั่วคราวเกาะไม้ซี้ (VZ01)",
+        "airportNameOnly": "ที่ขึ้นลงชั่วคราวเกาะไม้ซี้",
+        "icao": "VZ01",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3316,
+        "airportName": "ที่ขึ้นลงชั่วคราวภูเก็ต (VTSW)",
+        "airportNameOnly": "ที่ขึ้นลงชั่วคราวภูเก็ต",
+        "icao": "VTSW",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3390,
+        "airportName": "โนโตฮาดิเนโกโร (WARE) (JBB)",
+        "airportNameOnly": " โนโตฮาดิเนโกโร",
+        "icao": "WARE",
+        "iata": "JBB",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3264,
+        "airportName": "บ้านปัว (VTCE)",
+        "airportNameOnly": "บ้านปัว",
+        "icao": "VTCE",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3326,
+        "airportName": "ปากช่อง (VTUH)",
+        "airportNameOnly": "ปากช่อง",
+        "icao": "VTUH",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3272,
+        "airportName": "ป่าสัก (VTCO)",
+        "airportNameOnly": "ป่าสัก",
+        "icao": "VTCO",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3320,
+        "airportName": "มุกดาหาร (VTUB)",
+        "airportNameOnly": "มุกดาหาร",
+        "icao": "VTUB",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3910,
+        "airportName": "ไม่ใช่ท่าอากาศยาน บันทึก ใน remark (ZZZZ) (ZZZ)",
+        "airportNameOnly": "ไม่ใช่ท่าอากาศยาน บันทึก ใน remark",
+        "icao": "ZZZZ",
+        "iata": "ZZZ",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3319,
+        "airportName": "ไม่ได้ระบุชื่อ (VTUA)",
+        "airportNameOnly": "",
+        "icao": "VTUA",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3797,
+        "airportName": "ไม่ได้ระบุชื่อ (ZBDH) (BPE)",
+        "airportNameOnly": null,
+        "icao": "ZBDH",
+        "iata": "BPE",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3893,
+        "airportName": "ไม่ได้ระบุชื่อ (ZUTR) (TEN)",
+        "airportNameOnly": null,
+        "icao": "ZUTR",
+        "iata": "TEN",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3277,
+        "airportName": "ลำพูน (VTCY)",
+        "airportNameOnly": "ลำพูน",
+        "icao": "VTCY",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3324,
+        "airportName": "สกลนคร/น้ำพองใต้ (VTUF)",
+        "airportNameOnly": "สกลนคร/น้ำพองใต้",
+        "icao": "VTUF",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3323,
+        "airportName": "สกลนคร/น้ำพองเหนือ (VTUE)",
+        "airportNameOnly": "สกลนคร/น้ำพองเหนือ",
+        "icao": "VTUE",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3300,
+        "airportName": "สตูล (VTSA)",
+        "airportNameOnly": "สตูล",
+        "icao": "VTSA",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 499,
+        "airportName": "สนามบิน ชินจู (CHN)",
+        "airportNameOnly": "สนามบิน ชินจู",
+        "icao": "CHN",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 2962,
+        "airportName": "สนามบิน แทนดั๊ก (TDG)",
+        "airportNameOnly": "สนามบิน แทนดั๊ก",
+        "icao": "TDG",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3284,
+        "airportName": "สนามบินกำแพงเพชร (VTPG)",
+        "airportNameOnly": "สนามบินกำแพงเพชร",
+        "icao": "VTPG",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3244,
+        "airportName": "สนามบินกำแพงแสน (VTBK) (KDT)",
+        "airportNameOnly": "สนามบินกำแพงแสน",
+        "icao": "VTBK",
+        "iata": "KDT",
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3308,
+        "airportName": "สนามบินเกาะพีพี (VTSI) (PHZ)",
+        "airportNameOnly": "สนามบินเกาะพีพี",
+        "icao": "VTSI",
+        "iata": "PHZ",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3255,
+        "airportName": "สนามบินเขาสมิง (VTBV)",
+        "airportNameOnly": "สนามบินเขาสมิง",
+        "icao": "VTBV",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3342,
+        "airportName": "สนามบินเขี่อนน้ำพอง (VTUZ)",
+        "airportNameOnly": "สนามบินเขี่อนน้ำพอง",
+        "icao": "VTUZ",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3298,
+        "airportName": "สนามบินเขื่อนภูมิพล (VTPY) (TPY)",
+        "airportNameOnly": "สนามบินเขื่อนภูมิพล",
+        "icao": "VTPY",
+        "iata": "TPY",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3236,
+        "airportName": "สนามบินจันทบุรี (VTBC)",
+        "airportNameOnly": "สนามบินจันทบุรี",
+        "icao": "VTBC",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3239,
+        "airportName": "สนามบินชลบุรี/พัทยา (VTBF) (PYX)",
+        "airportNameOnly": "สนามบินชลบุรี/พัทยา",
+        "icao": "VTBF",
+        "iata": "PYX",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3283,
+        "airportName": "สนามบินชัยนาท (VTPD)",
+        "airportNameOnly": "สนามบินชัยนาท",
+        "icao": "VTPD",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3261,
+        "airportName": "สนามบินเชียงคำ (พะเยา) (VTCB)",
+        "airportNameOnly": "สนามบินเชียงคำ (พะเยา)",
+        "icao": "VTCB",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3274,
+        "airportName": "สนามบินเชียงราย (VTCR)",
+        "airportNameOnly": "สนามบินเชียงราย",
+        "icao": "VTCR",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3311,
+        "airportName": "สนามบินดอนนก (VTSO)",
+        "airportNameOnly": "สนามบินดอนนก",
+        "icao": "VTSO",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3248,
+        "airportName": "สนามบินตราด (VTBO) (TDX)",
+        "airportNameOnly": "สนามบินตราด",
+        "icao": "VTBO",
+        "iata": "TDX",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3297,
+        "airportName": "สนามบินนครนายก (VTPV) (TPV)",
+        "airportNameOnly": "สนามบินนครนายก",
+        "icao": "VTPV",
+        "iata": "TPV",
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3290,
+        "airportName": "สนามบินนครสวรรค์ (VTPN)",
+        "airportNameOnly": "สนามบินนครสวรรค์",
+        "icao": "VTPN",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3257,
+        "airportName": "สนามบินบางปะอิน (VTBX)",
+        "airportNameOnly": "สนามบินบางปะอิน",
+        "icao": "VTBX",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3253,
+        "airportName": "สนามบินบางพระ (VTBT)",
+        "airportNameOnly": "สนามบินบางพระ",
+        "icao": "VTBT",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3337,
+        "airportName": "สนามบินบ้านค่าย (VTUS)",
+        "airportNameOnly": "สนามบินบ้านค่าย",
+        "icao": "VTUS",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3270,
+        "airportName": "สนามบินบ้านไท (VTCM)",
+        "airportNameOnly": "สนามบินบ้านไท",
+        "icao": "VTCM",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3249,
+        "airportName": "สนามบินประจวบคีรีขันธ์ (VTBP)",
+        "airportNameOnly": "สนามบินประจวบคีรีขันธ์",
+        "icao": "VTBP",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3242,
+        "airportName": "สนามบินปราจีนบุรี (VTBI)",
+        "airportNameOnly": "สนามบินปราจีนบุรี",
+        "icao": "VTBI",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3247,
+        "airportName": "สนามบินปราณบุรี (VTBN)",
+        "airportNameOnly": "สนามบินปราณบุรี",
+        "icao": "VTBN",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3280,
+        "airportName": "สนามบินพัทยา (VTPA) (PYX)",
+        "airportNameOnly": "สนามบินพัทยา",
+        "icao": "VTPA",
+        "iata": "PYX",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3299,
+        "airportName": "สนามบินพัทลุง (VTS1)",
+        "airportNameOnly": "สนามบินพัทลุง",
+        "icao": "VTS1",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3243,
+        "airportName": "สนามบินเพชรบุรี (VTBJ)",
+        "airportNameOnly": "สนามบินเพชรบุรี",
+        "icao": "VTBJ",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3293,
+        "airportName": "สนามบินโพธาราม (VTPR)",
+        "airportNameOnly": "สนามบินโพธาราม",
+        "icao": "VTPR",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3287,
+        "airportName": "สนามบินมาบคา (VTPK) (MBK)",
+        "airportNameOnly": "สนามบินมาบคา",
+        "icao": "VTPK",
+        "iata": "MBK",
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3246,
+        "airportName": "สนามบินมารัก (VTBM)",
+        "airportNameOnly": "สนามบินมารัก",
+        "icao": "VTBM",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3251,
+        "airportName": "สนามบินราชบุรี (VTBR)",
+        "airportNameOnly": "สนามบินราชบุรี",
+        "icao": "VTBR",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3259,
+        "airportName": "สนามบินลพบุรี (VTBZ)",
+        "airportNameOnly": "สนามบินลพบุรี",
+        "icao": "VTBZ",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3245,
+        "airportName": "สนามบินลพบุรี/โคกกระเท่ียม (VTBL) (KKM)",
+        "airportNameOnly": "สนามบินลพบุรี/โคกกระเท่ียม",
+        "icao": "VTBL",
+        "iata": "KKM",
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3241,
+        "airportName": "สนามบินลพบุรี/สะพานนาค (VTBH)",
+        "airportNameOnly": "สนามบินลพบุรี/สะพานนาค",
+        "icao": "VTBH",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3338,
+        "airportName": "สนามบินเลิงนกทา (VTUT)",
+        "airportNameOnly": "สนามบินเลิงนกทา",
+        "icao": "VTUT",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3256,
+        "airportName": "สนามบินวัฒนานคร (VTBW)",
+        "airportNameOnly": "สนามบินวัฒนานคร",
+        "icao": "VTBW",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3307,
+        "airportName": "สนามบินสงขลา (VTSH) (SGZ)",
+        "airportNameOnly": "สนามบินสงขลา",
+        "icao": "VTSH",
+        "iata": "SGZ",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3310,
+        "airportName": "สนามบินสมุย (VTSM) (USM)",
+        "airportNameOnly": "สนามบินสมุย",
+        "icao": "VTSM",
+        "iata": "USM",
+        "zoneNo": "7",
+        "regionNo": "4"
+    },
+    {
+        "airportID": 3238,
+        "airportName": "สนามบินสระบุรี (VTBE)",
+        "airportNameOnly": "สนามบินสระบุรี",
+        "icao": "VTBE",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3240,
+        "airportName": "สนามบินสระบุรี (VTBG)",
+        "airportNameOnly": "สนามบินสระบุรี",
+        "icao": "VTBG",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3294,
+        "airportName": "สนามบินสริดเสนา (VTPS)",
+        "airportNameOnly": "สนามบินสริดเสนา",
+        "icao": "VTPS",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3282,
+        "airportName": "สนามบินสีชัง (VTPC)",
+        "airportNameOnly": "สนามบินสีชัง",
+        "icao": "VTPC",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "5"
+    },
+    {
+        "airportID": 3291,
+        "airportName": "สนามบินสุโขทัย (VTPO) (THS)",
+        "airportNameOnly": "สนามบินสุโขทัย",
+        "icao": "VTPO",
+        "iata": "THS",
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3328,
+        "airportName": "สนามบินสุรินทร์ (VTUJ) (PXR)",
+        "airportNameOnly": "สนามบินสุรินทร์",
+        "icao": "VTUJ",
+        "iata": "PXR",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3258,
+        "airportName": "สนามบินอยุธยา (VTBY)",
+        "airportNameOnly": "สนามบินอยุธยา",
+        "icao": "VTBY",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3265,
+        "airportName": "สนามบินอุตรดิตถ์ (VTCF)",
+        "airportNameOnly": "สนามบินอุตรดิตถ์",
+        "icao": "VTCF",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    },
+    {
+        "airportID": 3296,
+        "airportName": "สนามบินอุตรดิตถ์ (VTPU) (UTR)",
+        "airportNameOnly": "สนามบินอุตรดิตถ์",
+        "icao": "VTPU",
+        "iata": "UTR",
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3250,
+        "airportName": "สมุทรสาคร (ที่ขึ้นลงชั่วคราว) (VTBQ)",
+        "airportNameOnly": "สมุทรสาคร (ที่ขึ้นลงชั่วคราว)",
+        "icao": "VTBQ",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "1"
+    },
+    {
+        "airportID": 3331,
+        "airportName": "หนองคาย (VTUM)",
+        "airportNameOnly": "หนองคาย",
+        "icao": "VTUM",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "3"
+    },
+    {
+        "airportID": 3288,
+        "airportName": "หล่มสัก (VTPL)",
+        "airportNameOnly": "หล่มสัก",
+        "icao": "VTPL",
+        "iata": null,
+        "zoneNo": "7",
+        "regionNo": "2"
+    }
+]

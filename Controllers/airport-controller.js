@@ -79,6 +79,61 @@ exports.getList = async function (req, res){
 //     }
 // }
 
+
+const newData = require('../new-airports.json')
+exports.getNewList = function (req, res) {
+    const zoneNo = (req.params && req.params.zoneNo) ? req.params.zoneNo : (req.query && req.query.zoneNo) ? req.query.zoneNo : null;
+    const regionNo = (req.params && req.params.regionNo) ? req.params.regionNo : (req.query && req.query.regionNo) ? req.query.regionNo : null;
+    const statusDisplay = (req.params && req.params.statusDisplay) ? req.params.statusDisplay : (req.query && req.query.statusDisplay) ? req.query.statusDisplay : null;
+    const page = parseInt((req.params && req.params.page) ? req.params.page : (req.query && req.query.page) ? req.query.page : 1);
+    const size = parseInt((req.params && req.params.size) ? req.params.size : (req.query && req.query.size) ? req.query.size : 10);
+
+    const data = newData.data;
+    let _result = [];
+
+    const result = data.filter(f=>{
+        let check = f.regionNo !== "" && f.iata != null;
+    
+        if(zoneNo && check){
+            check = (f.zoneNo == zoneNo)
+        }
+
+        if(regionNo && check){
+            check = (f.regionNo == regionNo)
+        }
+      
+        if(statusDisplay && check){
+            check = (f.statusDisplay == statusDisplay)
+        }
+        
+        return check;
+
+    });
+
+    let start = 0;
+    let end = size;
+
+    if(size && page){
+        start = page - 1;
+    }
+
+    _result = result.slice(start, end); //will contain ['a', 'b', 'c']
+
+    const _res = {
+        total : result.length,
+        data : _result.map((m,i)=>{
+            return {
+                ...m,
+                index : i+1
+            }
+        })
+    }
+
+    //zoneNo regionNo
+    res.status(200).send(_res);
+}
+
+
 const data = require('../importAirports.json')
 exports.importJSON = (req, res) => {
     Airports.insertMany(data, function(err, docs) {
