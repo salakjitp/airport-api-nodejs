@@ -84,15 +84,14 @@ const newData = require('../result-airports.json')
 exports.getNewList = function (req, res) {
     const zoneNo = (req.params && req.params.zoneNo) ? req.params.zoneNo : (req.query && req.query.zoneNo) ? req.query.zoneNo : null;
     const regionNo = (req.params && req.params.regionNo) ? req.params.regionNo : (req.query && req.query.regionNo) ? req.query.regionNo : null;
-    const statusDisplay = (req.params && req.params.statusDisplay) ? req.params.statusDisplay : (req.query && req.query.statusDisplay) ? req.query.statusDisplay : null;
-    const page = parseInt((req.params && req.params.page) ? req.params.page : (req.query && req.query.page) ? req.query.page : 1);
-    const size = parseInt((req.params && req.params.size) ? req.params.size : (req.query && req.query.size) ? req.query.size : 10);
+    const skip = parseInt((req.params && req.params.skip) ? req.params.skip : (req.query && req.query.skip) ? req.query.skip : 0);
+    const take = parseInt((req.params && req.params.take) ? req.params.take : (req.query && req.query.take) ? req.query.take : 10);
 
     const data = newData;
     let _result = [];
 
     const result = data.filter(f=>{
-        let check = f.regionNo !== "" && f.iata != null;
+        let check = true;
     
         if(zoneNo && check){
             check = (f.zoneNo == zoneNo)
@@ -102,34 +101,22 @@ exports.getNewList = function (req, res) {
             check = (f.regionNo == regionNo)
         }
       
-        if(statusDisplay && check){
-            check = (f.statusDisplay == statusDisplay)
-        }
-        
         return check;
 
     });
 
-    let start = 0;
-    let end = size;
-
-    if(size && page){
-        start = page - 1;
-    }
-
-    _result = result.slice(start, end); //will contain ['a', 'b', 'c']
+    _result = result.slice(skip, skip+take);
 
     const _res = {
         total : result.length,
         data : _result.map((m,i)=>{
             return {
                 ...m,
-                index : i+1
+                index : (skip+i)+1
             }
         })
     }
 
-    //zoneNo regionNo
     res.status(200).send(_res);
 }
 
